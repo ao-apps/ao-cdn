@@ -1,0 +1,12 @@
+[submodule "data"]
+  path = data
+  url = git@github.com:ao-apps/ao-cdn-data.git
+  branch = .
+[submodule "servlet"]
+  path = servlet
+  url = git@github.com:ao-apps/ao-cdn-servlet.git
+  branch = .
+[submodule "webapp"]
+  path = webapp
+  url = git@github.com:ao-apps/ao-cdn-webapp.git
+  branch = .
