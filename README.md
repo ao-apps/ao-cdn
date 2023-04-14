@@ -20,7 +20,7 @@ Aggregator POM for content delivery network (CDN).
 ## Project Links
 * [Project Home](https://oss.aoapps.com/cdn/)
 * [Changelog](https://oss.aoapps.com/cdn/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-cdn)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-cdn)
 * [GitHub](https://github.com/ao-apps/ao-cdn)
 
 ## Modules
