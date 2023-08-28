@@ -32,9 +32,6 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.aoapps</groupId><artifactId>ao-cdn</artifactId><version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <properties>
-  </properties>
-
   <name>AO CDN</name>
   <url>https://oss.aoapps.com/cdn/</url>
   <description>Aggregator POM for content delivery network (CDN).</description>
