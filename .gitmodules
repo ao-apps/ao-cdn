@@ -5,8 +5,8 @@
 [submodule "servlet"]
   path = servlet
   url = git@github.com:ao-apps/ao-cdn-servlet.git
-  branch = .
+  branch = javaee
 [submodule "webapp"]
   path = webapp
   url = git@github.com:ao-apps/ao-cdn-webapp.git
-  branch = .
+  branch = javaee
