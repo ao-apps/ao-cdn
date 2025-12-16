@@ -109,7 +109,11 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
     <module>data/book</module>
     <module>servlet</module>
     <module>servlet/book</module>
+    <module>servlet-javaee</module>
+    <module>servlet-javaee/book</module>
     <module>webapp</module>
     <module>webapp/book</module>
+    <module>webapp-javaee</module>
+    <module>webapp-javaee/book</module>
   </modules>
 </project>

@@ -5,8 +5,16 @@
 [submodule "servlet"]
   path = servlet
   url = git@github.com:ao-apps/ao-cdn-servlet.git
+  branch = jakartaee
+[submodule "servlet-javaee"]
+  path = servlet-javaee
+  url = git@github.com:ao-apps/ao-cdn-servlet.git
   branch = javaee
 [submodule "webapp"]
   path = webapp
+  url = git@github.com:ao-apps/ao-cdn-webapp.git
+  branch = jakartaee
+[submodule "webapp-javaee"]
+  path = webapp-javaee
   url = git@github.com:ao-apps/ao-cdn-webapp.git
   branch = javaee
