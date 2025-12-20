@@ -113,6 +113,8 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
+        <module>book</module>
+        <module>data/book</module>
         <module>servlet</module>
         <module>servlet/book</module>
         <module>webapp</module>
@@ -128,8 +130,8 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
-        <module>book</module>
-        <module>data/book</module>
+        <module>book-javaee</module>
+        <module>data/book-javaee</module>
         <module>servlet-javaee</module>
         <module>servlet-javaee/book</module>
         <module>webapp-javaee</module>
