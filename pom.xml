@@ -103,24 +103,11 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <modules>
+    <module>data</module>
+  </modules>
+
   <profiles>
-    <profile>
-      <id>jakartaee</id>
-      <activation>
-        <property>
-          <name>jakartaee.skip</name>
-          <value>!true</value>
-        </property>
-      </activation>
-      <modules>
-        <module>book</module>
-        <module>data/book</module>
-        <module>servlet</module>
-        <module>servlet/book</module>
-        <module>webapp</module>
-        <module>webapp/book</module>
-      </modules>
-    </profile>
     <profile>
       <id>javaee</id>
       <activation>
@@ -138,9 +125,22 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
         <module>webapp-javaee/book</module>
       </modules>
     </profile>
+    <profile>
+      <id>jakartaee</id>
+      <activation>
+        <property>
+          <name>jakartaee.skip</name>
+          <value>!true</value>
+        </property>
+      </activation>
+      <modules>
+        <module>book</module>
+        <module>data/book</module>
+        <module>servlet</module>
+        <module>servlet/book</module>
+        <module>webapp</module>
+        <module>webapp/book</module>
+      </modules>
+    </profile>
   </profiles>
-
-  <modules>
-    <module>data</module>
-  </modules>
 </project>
