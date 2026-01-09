@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-cdn - Aggregator POM for content delivery network (CDN).
-Copyright (C) 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -117,12 +117,8 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
-        <module>book-javaee</module>
-        <module>data/book-javaee</module>
         <module>servlet-javaee</module>
-        <module>servlet-javaee/book</module>
         <module>webapp-javaee</module>
-        <module>webapp-javaee/book</module>
       </modules>
     </profile>
     <profile>
