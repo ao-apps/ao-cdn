@@ -14,7 +14,3 @@
   path = webapp
   url = git@github.com:ao-apps/ao-cdn-webapp.git
   branch = jakartaee
-[submodule "webapp-javaee"]
-  path = webapp-javaee
-  url = git@github.com:ao-apps/ao-cdn-webapp.git
-  branch = javaee

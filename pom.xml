@@ -118,7 +118,6 @@ along with ao-cdn.  If not, see <https://www.gnu.org/licenses/>.
       </activation>
       <modules>
         <module>servlet-javaee</module>
-        <module>webapp-javaee</module>
       </modules>
     </profile>
     <profile>
